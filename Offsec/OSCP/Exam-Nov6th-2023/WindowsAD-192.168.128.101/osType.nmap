@@ -1,0 +1,19 @@
+# Nmap 7.94 scan initiated Tue Nov  7 06:10:36 2023 as: nmap -O -Pn --top-ports 1000 -T5 --open -oN osType.nmap 192.168.128.101
+Nmap scan report for 192.168.128.101
+Host is up (0.13s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+8080/tcp open  http-proxy
+9595/tcp open  pds
+Aggressive OS guesses: Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (91%), Microsoft Windows 7 (91%), Microsoft Windows 11 21H2 (91%), Microsoft Windows Server 2019 (91%), Microsoft Windows XP SP3 (89%), Microsoft Windows Server 2008 SP1 (89%), Microsoft Windows 10 (88%), Microsoft Windows 7 or Windows Server 2008 R2 (88%), Microsoft Windows Server 2008 R2 (88%), Microsoft Windows 7 SP1 or Windows Server 2008 R2 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov  7 06:10:45 2023 -- 1 IP address (1 host up) scanned in 8.79 seconds

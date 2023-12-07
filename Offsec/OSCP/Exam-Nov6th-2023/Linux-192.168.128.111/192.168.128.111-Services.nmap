@@ -1,0 +1,63 @@
+# Nmap 7.94 scan initiated Tue Nov  7 15:24:26 2023 as: nmap -sC -sV -O -p80,135,139,443,445,3389 -v -T4 -oN 192.168.128.111-Services.nmap 192.168.128.111
+Nmap scan report for 192.168.128.111
+Host is up (0.14s latency).
+
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Home
+|_http-generator: Nicepage 5.13.1, nicepage.com
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+443/tcp  open  ssl/https     Microsoft-IIS/10.0
+| tls-alpn: 
+|_  http/1.1
+|_http-title: Home
+|_ssl-date: 2023-09-16T05:48:41+00:00; -52d09h36m55s from scanner time.
+| ssl-cert: Subject: commonName=PowerShellWebAccessTestWebSite
+| Issuer: commonName=PowerShellWebAccessTestWebSite
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2023-08-24T08:19:45
+| Not valid after:  2023-11-22T08:19:45
+| MD5:   ce5f:2697:4f6f:429e:f052:4186:6f96:948c
+|_SHA-1: ba7e:919b:1a3f:953c:475e:9408:75c1:8b41:9f15:8293
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+445/tcp  open  microsoft-ds?
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+|_ssl-date: 2023-09-16T05:48:41+00:00; -52d09h36m55s from scanner time.
+| ssl-cert: Subject: commonName=oscp
+| Issuer: commonName=oscp
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-08-10T09:07:03
+| Not valid after:  2024-02-09T09:07:03
+| MD5:   e99d:8341:a0af:07a1:a945:cca6:313b:31ca
+|_SHA-1: 6d48:86da:9152:5489:1009:ea14:962a:eab3:8b64:bf4b
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2019 (88%)
+Aggressive OS guesses: Microsoft Windows Server 2019 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2023-09-16T05:47:59
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+|_clock-skew: mean: -52d09h36m54s, deviation: 0s, median: -52d09h36m55s
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov  7 15:25:36 2023 -- 1 IP address (1 host up) scanned in 70.07 seconds

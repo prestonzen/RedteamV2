@@ -1,0 +1,20 @@
+# Nmap 7.93 scan initiated Mon Nov 13 00:25:48 2023 as: nmap -sC -sV -Pn -p 22,80 -v -T4 -oN services.nmap 192.168.184.132
+Nmap scan report for 192.168.184.132
+Host is up (0.048s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 9c52325b8bf638c77fa1b704854954f3 (RSA)
+|   256 d6135606153624ad655e7aa18ce564f4 (ECDSA)
+|_  256 1ba9f35ad05183183a23ddc4a9be59f0 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-title: Apache2 Ubuntu Default Page: It works
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov 13 00:25:58 2023 -- 1 IP address (1 host up) scanned in 9.99 seconds

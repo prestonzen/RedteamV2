@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Sun Jun  4 07:52:26 2023 as: nmap -vv -&#45;reason -Pn -T4 -sV -sC -&#45;version-all -A -&#45;osscan-guess -p- -oN /home/kali/OSCP/Potato/results/192.168.236.101/scans/_full_tcp_nmap.txt -oX /home/kali/OSCP/Potato/results/192.168.236.101/scans/xml/_full_tcp_nmap.xml 192.168.236.101 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sV -sC -&#45;version-all -A -&#45;osscan-guess -p- -oN /home/kali/OSCP/Potato/results/192.168.236.101/scans/_full_tcp_nmap.txt -oX /home/kali/OSCP/Potato/results/192.168.236.101/scans/xml/_full_tcp_nmap.xml 192.168.236.101" start="1685879546" startstr="Sun Jun  4 07:52:26 2023" version="7.93" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1685879547"/>
+<taskend task="NSE" time="1685879547"/>
+<taskbegin task="NSE" time="1685879547"/>
+<taskend task="NSE" time="1685879547"/>
+<taskbegin task="NSE" time="1685879547"/>
+<taskend task="NSE" time="1685879547"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1685879547"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1685879547"/>
+<taskbegin task="Connect Scan" time="1685879547"/>

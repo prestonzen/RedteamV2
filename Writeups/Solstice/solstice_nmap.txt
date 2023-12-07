@@ -1,0 +1,53 @@
+# Nmap 7.93 scan initiated Mon Jun 26 11:02:47 2023 as: nmap -p- -sV -sC --open -T4 -oN solstice_nmap.txt 192.168.235.72
+Nmap scan report for 192.168.235.72
+Host is up (0.051s latency).
+Not shown: 63727 closed tcp ports (conn-refused), 1799 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    VERSION
+21/tcp    open  ftp        pyftpdlib 1.5.6
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|  Connected to: 192.168.235.72:21
+|  Waiting for username.
+|  TYPE: ASCII; STRUcture: File; MODE: Stream
+|  Data connection closed.
+|_End of status.
+22/tcp    open  ssh        OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 5ba737fd556cf8ea03f510bc94320718 (RSA)
+|   256 abda6a6f973fb2703e6c2b4b0cb7f64c (ECDSA)
+|_  256 ae29d4e346a1b15227838f8fb0c436d1 (ED25519)
+25/tcp    open  smtp       Exim smtpd
+| smtp-commands: solstice Hello nmap.scanme.org [192.168.45.231], SIZE 52428800, 8BITMIME, PIPELINING, CHUNKING, PRDR, HELP
+|_ Commands supported: AUTH HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP
+80/tcp    open  http       Apache httpd 2.4.38 ((Debian))
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Site doesn't have a title (text/html).
+2121/tcp  open  ftp        pyftpdlib 1.5.6
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_drws------   2 www-data www-data     4096 Jun 18  2020 pub
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|  Connected to: 192.168.235.72:2121
+|  Waiting for username.
+|  TYPE: ASCII; STRUcture: File; MODE: Stream
+|  Data connection closed.
+|_End of status.
+3128/tcp  open  http-proxy Squid http proxy 4.6
+|_http-server-header: squid/4.6
+|_http-title: ERROR: The requested URL could not be retrieved
+8593/tcp  open  http       PHP cli server 5.5 or later (PHP 7.3.14-1)
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+54787/tcp open  http       PHP cli server 5.5 or later (PHP 7.3.14-1)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+62524/tcp open  tcpwrapped
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun 26 11:04:03 2023 -- 1 IP address (1 host up) scanned in 76.04 seconds

@@ -1,0 +1,10 @@
+
+*.ini
+
+*.restore
+Tools/.obsidian/workspace.json
+Tools/.obsidian/hotkeys.json
+Tools/.obsidian/app.json
+Tools/.obsidian/appearance.json
+Tools/.obsidian/core-plugins-migration.json
+Tools/.obsidian/core-plugins.json

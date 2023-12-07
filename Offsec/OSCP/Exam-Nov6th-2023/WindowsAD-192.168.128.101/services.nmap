@@ -1,0 +1,191 @@
+# Nmap 7.94 scan initiated Mon Nov  6 18:16:15 2023 as: nmap -sC -sV -p21,80,135,139,445,3389,5040,8080,9510,9512,9595,49664,49665,49666,49667,49668,49669,49670,49671,51393 -v -T5 -oN services.nmap 192.168.128.101
+WARNING: Service 192.168.128.101:9510 had already soft-matched rtsp, but now soft-matched sip; ignoring second value
+Nmap scan report for 192.168.128.101
+Host is up (0.13s latency).
+
+PORT      STATE SERVICE       VERSION
+21/tcp    open  ftp           Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_03-21-22  01:45AM             38100936 ServerSetup-3.9.0.2463.exe
+| ftp-syst: 
+|_  SYST: Windows_NT
+80/tcp    open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+|_ssl-date: 2023-11-06T18:19:39+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=MS01.oscp.exam
+| Issuer: commonName=MS01.oscp.exam
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-11-05T17:19:05
+| Not valid after:  2024-05-06T17:19:05
+| MD5:   bbd6:3041:aa23:79dc:03e6:362b:eb54:9cfc
+|_SHA-1: 72b2:0234:ca40:c40e:0723:78c0:5c1d:d4d2:5616:568f
+| rdp-ntlm-info: 
+|   Target_Name: OSCP
+|   NetBIOS_Domain_Name: OSCP
+|   NetBIOS_Computer_Name: MS01
+|   DNS_Domain_Name: oscp.exam
+|   DNS_Computer_Name: MS01.oscp.exam
+|   DNS_Tree_Name: oscp.exam
+|   Product_Version: 10.0.19041
+|_  System_Time: 2023-11-06T18:19:03+00:00
+5040/tcp  open  unknown
+8080/tcp  open  http          Microsoft IIS httpd 10.0
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+9510/tcp  open  rtsp
+|_rtsp-methods: ERROR: Script execution failed (use -d to debug)
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 404 Not Found
+|     Date: Mon, 06 Nov 2023 18:16:23 GMT
+|     Connection: Close
+|     Cache-Control: no-cache, no-store, must-revalidate
+|     Pragma: no-cache
+|     Expires: 0
+|     Content-Type: text/html
+|     <h1>Not Found (404)</h1>
+|     <p>/nice%20ports%2C/Tri%6Eity.txt%2ebak</p>
+|   GenericLines: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: Close
+|   GetRequest: 
+|     HTTP/1.0 404 Not Found
+|     Date: Mon, 06 Nov 2023 18:16:22 GMT
+|     Connection: Close
+|     Content-Type: text/html
+|     <h1>Not Found (404)</h1>
+|     <p>/</p>
+|   HTTPOptions: 
+|     HTTP/1.0 404 Not Found
+|     Date: Mon, 06 Nov 2023 18:16:23 GMT
+|     Connection: Close
+|     Content-Type: text/html
+|     <h1>Not Found (404)</h1>
+|     <p>/</p>
+|   RTSPRequest: 
+|     RTSP/1.0 404 Not Found
+|     Date: Mon, 06 Nov 2023 18:16:23 GMT
+|     Connection: Close
+|     Content-Type: text/html
+|     <h1>Not Found (404)</h1>
+|     <p>/</p>
+|   SIPOptions: 
+|     SIP/2.0 404 Not Found
+|     Date: Mon, 06 Nov 2023 18:16:23 GMT
+|     Connection: Close
+|     Cache-Control: no-cache, no-store, must-revalidate
+|     Pragma: no-cache
+|     Expires: 0
+|     Content-Type: text/html
+|     <h1>Not Found (404)</h1>
+|_    <p>sip:nm</p>
+9512/tcp  open  unknown
+9595/tcp  open  pds?
+| fingerprint-strings: 
+|   NotesRPC: 
+|     Action
+|     Password
+|     Session
+|     dd666dca-7cd0-11ee-830b-0050568a5552
+|     Action
+|     Password
+|     Session
+|     dd68d02e-7cd0-11ee-abff-0050568a5552
+|     Action
+|     Password
+|     Session
+|     dd68d030-7cd0-11ee-9dec-0050568a5552
+|     Action
+|     Password
+|     Session
+|     dd6b3288-7cd0-11ee-9573-0050568a5552
+|     Action
+|     Password
+|     Session
+|     dd6b3289-7cd0-11ee-9770-0050568a5552
+|     Action
+|     Password
+|     Session
+|     dd6b328a-7cd0-11ee-97f9-0050568a5552
+|     Action
+|     Password
+|     Session
+|     dd6d94d8-7cd0-11ee-a97e-0050568a5552
+|     Action
+|     Password
+|     Session
+|_    dd6d94d9-7cd0-11ee-883f-0050568a5552
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+49670/tcp open  msrpc         Microsoft Windows RPC
+49671/tcp open  msrpc         Microsoft Windows RPC
+51393/tcp open  msrpc         Microsoft Windows RPC
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port9510-TCP:V=7.94%I=7%D=11/6%Time=65492D76%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20Clo
+SF:se\r\n\r\n")%r(GetRequest,8D,"HTTP/1\.0\x20404\x20Not\x20Found\r\nDate:
+SF:\x20Mon,\x2006\x20Nov\x202023\x2018:16:22\x20GMT\r\nConnection:\x20Clos
+SF:e\r\nContent-Type:\x20text/html\r\n\r\n<h1>Not\x20Found\x20\(404\)</h1>
+SF:\n<p>/</p>\n")%r(HTTPOptions,8D,"HTTP/1\.0\x20404\x20Not\x20Found\r\nDa
+SF:te:\x20Mon,\x2006\x20Nov\x202023\x2018:16:23\x20GMT\r\nConnection:\x20C
+SF:lose\r\nContent-Type:\x20text/html\r\n\r\n<h1>Not\x20Found\x20\(404\)</
+SF:h1>\n<p>/</p>\n")%r(RTSPRequest,8D,"RTSP/1\.0\x20404\x20Not\x20Found\r\
+SF:nDate:\x20Mon,\x2006\x20Nov\x202023\x2018:16:23\x20GMT\r\nConnection:\x
+SF:20Close\r\nContent-Type:\x20text/html\r\n\r\n<h1>Not\x20Found\x20\(404\
+SF:)</h1>\n<p>/</p>\n")%r(FourOhFourRequest,102,"HTTP/1\.0\x20404\x20Not\x
+SF:20Found\r\nDate:\x20Mon,\x2006\x20Nov\x202023\x2018:16:23\x20GMT\r\nCon
+SF:nection:\x20Close\r\nCache-Control:\x20no-cache,\x20no-store,\x20must-r
+SF:evalidate\r\nPragma:\x20no-cache\r\nExpires:\x200\r\nContent-Type:\x20t
+SF:ext/html\r\n\r\n<h1>Not\x20Found\x20\(404\)</h1>\n<p>/nice%20ports%2C/T
+SF:ri%6Eity\.txt%2ebak</p>\n")%r(SIPOptions,E3,"SIP/2\.0\x20404\x20Not\x20
+SF:Found\r\nDate:\x20Mon,\x2006\x20Nov\x202023\x2018:16:23\x20GMT\r\nConne
+SF:ction:\x20Close\r\nCache-Control:\x20no-cache,\x20no-store,\x20must-rev
+SF:alidate\r\nPragma:\x20no-cache\r\nExpires:\x200\r\nContent-Type:\x20tex
+SF:t/html\r\n\r\n<h1>Not\x20Found\x20\(404\)</h1>\n<p>sip:nm</p>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port9595-TCP:V=7.94%I=7%D=11/6%Time=65492DF1%P=x86_64-pc-linux-gnu%r(No
+SF:tesRPC,270,"\0\0\0J\0\x01\x05ID\0\0\x08Action\0\x0c\x05Password\0\0\x05
+SF:Session\0dd666dca-7cd0-11ee-830b-0050568a5552\0\0\0\0\0J\0\x01\x05ID\0\
+SF:0\x08Action\0\x0c\x05Password\0\0\x05Session\0dd68d02e-7cd0-11ee-abff-0
+SF:050568a5552\0\0\0\0\0J\0\x01\x05ID\0\0\x08Action\0\x0c\x05Password\0\0\
+SF:x05Session\0dd68d030-7cd0-11ee-9dec-0050568a5552\0\0\0\0\0J\0\x01\x05ID
+SF:\0\0\x08Action\0\x0c\x05Password\0\0\x05Session\0dd6b3288-7cd0-11ee-957
+SF:3-0050568a5552\0\0\0\0\0J\0\x01\x05ID\0\0\x08Action\0\x0c\x05Password\0
+SF:\0\x05Session\0dd6b3289-7cd0-11ee-9770-0050568a5552\0\0\0\0\0J\0\x01\x0
+SF:5ID\0\0\x08Action\0\x0c\x05Password\0\0\x05Session\0dd6b328a-7cd0-11ee-
+SF:97f9-0050568a5552\0\0\0\0\0J\0\x01\x05ID\0\0\x08Action\0\x0c\x05Passwor
+SF:d\0\0\x05Session\0dd6d94d8-7cd0-11ee-a97e-0050568a5552\0\0\0\0\0J\0\x01
+SF:\x05ID\0\0\x08Action\0\x0c\x05Password\0\0\x05Session\0dd6d94d9-7cd0-11
+SF:ee-883f-0050568a5552\0\0");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2023-11-06T18:19:02
+|_  start_date: N/A
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov  6 18:19:40 2023 -- 1 IP address (1 host up) scanned in 205.02 seconds

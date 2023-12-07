@@ -1,0 +1,26 @@
+# Nmap 7.94 scan initiated Tue Nov  7 08:37:19 2023 as: nmap -sV -Pn -p445 -T5 --script=smb-* --open -v -oN smb445Scripts.nmap 192.168.128.101
+Nmap scan report for 192.168.128.101
+Host is up (0.15s latency).
+
+PORT    STATE SERVICE       VERSION
+445/tcp open  microsoft-ds?
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Host script results:
+| smb-mbenum: 
+|_  ERROR: Failed to connect to browser service: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+|_smb-print-text: false
+|_smb-vuln-ms10-054: false
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+|_smb-flood: ERROR: Script execution failed (use -d to debug)
+| smb-protocols: 
+|   dialects: 
+|     2:0:2
+|     2:1:0
+|     3:0:0
+|     3:0:2
+|_    3:1:1
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov  7 08:38:21 2023 -- 1 IP address (1 host up) scanned in 62.91 seconds

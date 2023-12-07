@@ -1,0 +1,77 @@
+ ???[0m
+ [0m
+ anacron -u cron.daily [0m
+ anacron -u cron.monthly [0m
+ anacron -u cron.weekly [0m
+ avahi-daemon: chroot helper [0m
+ avahi-daemon: running [dawn.local] [0m
+ -bash [0m
+ /bin/bash /usr/lib/systemd/user-environment-generators/90gpg-agent [0m
+ /bin/login -p --      [0m
+ /bin/sh -c    cd / && run-parts --report /etc/cron.hourly [0m
+ /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+ /bin/sh -c chmod 777 /home/dawn/ITDEPT/web-control [0m
+ /bin/sh -c /home/dawn/ITDEPT/product-control [0m
+ /bin/sh -c /home/dawn/ITDEPT/web-control [0m
+ /bin/sh -c /home/ganimedes/phobos [0m
+ /bin/sh -c /root/pspy64 > /var/www/html/logs/management.log [0m
+ /bin/sh -c run-parts --report /etc/cron.daily [0m
+ /bin/sh -c run-parts --report /etc/cron.monthly [0m
+ /bin/sh -c run-parts --report /etc/cron.weekly [0m
+ /bin/sh -c /usr/bin/sensible-editor /tmp/crontab.QqzEGZ/crontab [0m
+ /bin/sh /etc/cron.daily/0anacron [0m
+ /bin/sh /etc/cron.daily/dpkg [0m
+ /bin/sh /etc/cron.daily/passwd [0m
+ /bin/sh /etc/cron.monthly/0anacron [0m
+ /bin/sh /etc/cron.weekly/0anacron [0m
+ /bin/sh /etc/update-motd.d/10-uname [0m
+ /bin/sh -e /usr/lib/php/sessionclean [0m
+ /bin/sh /sbin/dhclient-script [0m
+ /bin/sh /usr/bin/sensible-editor /tmp/crontab.QqzEGZ/crontab [0m
+ /bin/sh /usr/sbin/phpquery -V [0m
+ chmod 777 /home/dawn/ITDEPT/product-control [0m
+ chmod 777 /home/dawn/ITDEPT/web-control [0m
+ cmp -s group.bak /etc/group [0m
+ crontab -e [0m
+done
+Draining file system events due to startup...
+ file-system-events=false 
+ gpgconf --list-options gpg-agent [0m
+ (ionclean) [0m
+ /lib/systemd/systemd-journald [0m
+ /lib/systemd/systemd-logind [0m
+ /lib/systemd/systemd-timesyncd [0m
+ /lib/systemd/systemd-udevd [0m
+ /lib/systemd/systemd --user [0m
+ readlink -f /etc/resolv.conf [0m
+ /root/pspy64 [0m
+ run-parts --list /etc/dhcp/dhclient-enter-hooks.d [0m
+ run-parts --lsbsysinit /etc/update-motd.d [0m
+ run-parts --report /etc/cron.daily [0m
+ run-parts --report /etc/cron.monthly [0m
+ run-parts --report /etc/cron.weekly [0m
+ /sbin/agetty -o -p -- \u --noclear tty1 linux [0m
+ /sbin/dhclient -4 -v -i -pf /run/dhclient.ens160.pid -lf /var/lib/dhcp/dhclient.ens160.leases -I -df /var/lib/dhcp/dhclient6.ens160.leases ens160 [0m
+ /sbin/init [0m
+ /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant [0m
+ (sd-executor) [0m
+ (sd-pam) [0m
+ sed -e s,@VERSION@,7.3, [0m
+ sh -c /usr/bin/env -i PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin run-parts --lsbsysinit /etc/update-motd.d > /run/motd.dynamic.new [0m
+ sort -u -t: -k 1,1 [0m
+ /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only [0m
+ /usr/bin/VGAuthService [0m
+ /usr/bin/vmtoolsd [0m
+ /usr/lib/cups/notifier/dbus dbus://  [0m
+ /usr/sbin/anacron -d -q -s [0m
+ /usr/sbin/apache2 -k start [0m
+ /usr/sbin/cron -f [0m
+ /usr/sbin/CRON -f [0m
+ /usr/sbin/CRON -f 77 /home/dawn/ITDEPT/product-control [0m
+ /usr/sbin/cups-browsed [0m
+ /usr/sbin/cupsd -l [0m
+ /usr/sbin/mysqld [0m
+ /usr/sbin/nmbd --foreground --no-process-group [0m
+ /usr/sbin/rsyslogd -n -iNONE [0m
+ /usr/sbin/smbd --foreground --no-process-group [0m
+����������������������������������������������������������������������

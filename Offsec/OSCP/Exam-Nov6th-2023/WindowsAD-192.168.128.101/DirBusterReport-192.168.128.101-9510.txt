@@ -1,0 +1,19 @@
+DirBuster 1.0-RC1 - Report
+http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
+Report produced on Tue Nov 07 06:25:55 GMT 2023
+--------------------------------
+
+http://192.168.128.101:9510
+--------------------------------
+Directories found during testing:
+
+Dirs found with a 200 response:
+
+/web/
+/system/
+/client/
+/System/
+
+
+--------------------------------
+--------------------------------

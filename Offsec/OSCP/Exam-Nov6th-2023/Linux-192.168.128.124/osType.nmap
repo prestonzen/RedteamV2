@@ -1,0 +1,1 @@
+# Nmap 7.94 scan initiated Tue Nov  7 15:53:20 2023 as: nmap -O --top-ports 2000 -v -T5 -Pn -oN osType.nmap 192.168.128.124

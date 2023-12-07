@@ -1,0 +1,66 @@
+# Nmap 7.93 scan initiated Thu Jun 15 13:16:36 2023 as: nmap -vv --reason -Pn -T4 -sV -p 22 --script=banner,ssh2-enum-algos,ssh-hostkey,ssh-auth-methods -oN /home/kali/OSCP/Sumo/results/192.168.162.87/scans/tcp22/tcp_22_ssh_nmap.txt -oX /home/kali/OSCP/Sumo/results/192.168.162.87/scans/tcp22/xml/tcp_22_ssh_nmap.xml 192.168.162.87
+Nmap scan report for 192.168.162.87
+Host is up, received user-set (0.044s latency).
+Scanned at 2023-06-15 13:16:36 GMT for 2s
+
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 5.9p1 Debian 5ubuntu1.10 (Ubuntu Linux; protocol 2.0)
+| ssh-auth-methods: 
+|   Supported authentication methods: 
+|     publickey
+|_    password
+|_banner: SSH-2.0-OpenSSH_5.9p1 Debian-5ubuntu1.10
+| ssh2-enum-algos: 
+|   kex_algorithms: (7)
+|       ecdh-sha2-nistp256
+|       ecdh-sha2-nistp384
+|       ecdh-sha2-nistp521
+|       diffie-hellman-group-exchange-sha256
+|       diffie-hellman-group-exchange-sha1
+|       diffie-hellman-group14-sha1
+|       diffie-hellman-group1-sha1
+|   server_host_key_algorithms: (3)
+|       ssh-rsa
+|       ssh-dss
+|       ecdsa-sha2-nistp256
+|   encryption_algorithms: (13)
+|       aes128-ctr
+|       aes192-ctr
+|       aes256-ctr
+|       arcfour256
+|       arcfour128
+|       aes128-cbc
+|       3des-cbc
+|       blowfish-cbc
+|       cast128-cbc
+|       aes192-cbc
+|       aes256-cbc
+|       arcfour
+|       rijndael-cbc@lysator.liu.se
+|   mac_algorithms: (11)
+|       hmac-md5
+|       hmac-sha1
+|       umac-64@openssh.com
+|       hmac-sha2-256
+|       hmac-sha2-256-96
+|       hmac-sha2-512
+|       hmac-sha2-512-96
+|       hmac-ripemd160
+|       hmac-ripemd160@openssh.com
+|       hmac-sha1-96
+|       hmac-md5-96
+|   compression_algorithms: (2)
+|       none
+|_      zlib@openssh.com
+| ssh-hostkey: 
+|   1024 06cb9ea3aff01048c417934a2c45d948 (DSA)
+| ssh-dss AAAAB3NzaC1kc3MAAACBAO7z5YzRXLGqibzkX44TJn616aaDE3rvYcPwMiyWE3/J+WrJNkyMIRfqggIho1dxtYOA5xXP+UCk3osMe5XlMlocy3McGlmqhSrMFbQOOFrvm/PMAF649Xq/rDm2M/m+sXgxvQmJyLV36DqwbxxCL1wrICNk4cxfDG1K2yTGVw/rAAAAFQDa/l4YfWS1CNCRhv0XZbwXkGdxfwAAAIEAnMQzPH7CGQKfsHXgyFl3lsOMpj0ddXHG/rWZvFn+8NdAh48do0cN88Bti8C4Asibcp0zbEEga9KgxeR+dQi2lg3nHRzHFTPTnjybfUZqST4fU1VE9oJFCL3Q1cWHPfcvQzXNqbVDwMLSqpRYAbexXET64DgwX4fw8FSV6efKaQQAAACAVGZB5+2BdywfhdFT0HqANuHvcLfjGPQ8XkNTcO+XFSWxNFwTnLOzZE8FVNsTIBdMjXKjbWOwLMkzb4EHhkeyJglqDWvBoVTiDpXbRxctFiGt0Z83EvTJJSEAGYDCMHkux/dcVYe0WNjJYX9GBjXB2yhL/2kZuH0lzoNx9fITQ/U=
+|   2048 b7c5427bbaae9b9b7190e747b4a4de5a (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwlghTOhfNbdMRHJF0N2ho6RlE8HR+wVE5aoFt/PPu6dveDLV7xt7GLS8Q849r1tAScErRUVryrD6gwQ0DB45hGrw8POQlnUHggTjyNp3+sshrWqRs5Dp93LL3NvhpBXl6YD9bJEC3e2qXY3Vwm+Wc/GE/9SxlB+aHL/ekjgNVWgpMT1y/fCKAWlF4TLKUl7Xc21GGWnQptGyYweSbefo4TPa7neg+YdpZkqMWaoK/eEbG+Ze5ocSEWrmB3jQMDHhgeZDO/gB3iuxSDrOToSZmsNcW6TtgqyVyo1q26VIjVRWZPlm9wyR1YB4M85uXZG2DSYu4TFKDwKhXBCqgnSHx
+|   256 fa81cd002d52660b70fcb840fadb1830 (ECDSA)
+|_ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAf1vV7lVrnTZwOIFZj7gvuahGAK2YAv8dBxFD5jV7Ho5nXHPCulaGcA9aYW9z2ih2JL/0+3zfdPfk3JBYVyrM8=
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun 15 13:16:38 2023 -- 1 IP address (1 host up) scanned in 2.03 seconds

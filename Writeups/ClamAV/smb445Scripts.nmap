@@ -1,0 +1,109 @@
+# Nmap 7.93 scan initiated Fri Nov 10 01:13:25 2023 as: nmap -sV -Pn -p445 -T5 --script=smb-* --open -v -oN smb445Scripts.nmap 192.168.181.42
+Nmap scan report for 192.168.181.42
+Host is up (0.047s latency).
+
+PORT    STATE SERVICE     VERSION
+445/tcp open  netbios-ssn Samba smbd 3.0.14a-Debian (workgroup: WORKGROUP)
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Host script results:
+|_smb-vuln-ms10-054: false
+|_smb-vuln-ms10-061: false
+| smb-mbenum: 
+|   Master Browser
+|     0XBABE  0.0  0xbabe server (Samba 3.0.14a-Debian) brave pig
+|   Print server
+|     0XBABE  0.0  0xbabe server (Samba 3.0.14a-Debian) brave pig
+|   Server
+|     0XBABE  0.0  0xbabe server (Samba 3.0.14a-Debian) brave pig
+|   Server service
+|     0XBABE  0.0  0xbabe server (Samba 3.0.14a-Debian) brave pig
+|   Unix server
+|     0XBABE  0.0  0xbabe server (Samba 3.0.14a-Debian) brave pig
+|   Windows NT/2000/XP/2003 server
+|     0XBABE  0.0  0xbabe server (Samba 3.0.14a-Debian) brave pig
+|   Workstation
+|_    0XBABE  0.0  0xbabe server (Samba 3.0.14a-Debian) brave pig
+|_smb-print-text: false
+| smb-protocols: 
+|   dialects: 
+|_    NT LM 0.12 (SMBv1) [dangerous, but default]
+|_smb-enum-sessions: ERROR: Script execution failed (use -d to debug)
+|_smb-system-info: ERROR: Script execution failed (use -d to debug)
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.14a-Debian)
+|   NetBIOS computer name: 
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2023-11-10T06:16:10-05:00
+| smb-enum-users: 
+|   0XBABE\backup (RID: 1068)
+|     Full name:   backup
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\bin (RID: 1004)
+|     Full name:   bin
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\daemon (RID: 1002)
+|     Full name:   daemon
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\Debian-exim (RID: 1204)
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\games (RID: 1010)
+|     Full name:   games
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\gnats (RID: 1082)
+|     Full name:   Gnats Bug-Reporting System (admin)
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\irc (RID: 1078)
+|     Full name:   ircd
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\list (RID: 1076)
+|     Full name:   Mailing List Manager
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\lp (RID: 1014)
+|     Full name:   lp
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\mail (RID: 1016)
+|     Full name:   mail
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\man (RID: 1012)
+|     Full name:   man
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\news (RID: 1018)
+|     Full name:   news
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\nobody (RID: 501)
+|     Full name:   nobody
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\proxy (RID: 1026)
+|     Full name:   proxy
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\root (RID: 1000)
+|     Full name:   root
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\ryu (RID: 3000)
+|     Full name:   ryu,,,
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\sync (RID: 1008)
+|     Full name:   sync
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\sys (RID: 1006)
+|     Full name:   sys
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\uucp (RID: 1020)
+|     Full name:   uucp
+|     Flags:       Account disabled, Normal user account
+|   0XBABE\www-data (RID: 1066)
+|     Full name:   www-data
+|_    Flags:       Account disabled, Normal user account
+| smb-brute: 
+|_  No accounts found
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: share (dangerous)
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb-vuln-regsvc-dos: ERROR: Script execution failed (use -d to debug)
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Nov 10 01:26:17 2023 -- 1 IP address (1 host up) scanned in 771.81 seconds

@@ -1,0 +1,33 @@
+# Nmap 7.94 scan initiated Sat Nov  4 12:03:20 2023 as: nmap -sC -sV --script=mysql-audit,mysql-databases,mysql-brute,mysql-enum,mysql-dump-hashes -p3306 -T4 -oN mysql.nmap 192.168.172.74
+Nmap scan report for 192.168.172.74
+Host is up (0.047s latency).
+
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql   MySQL 8.0.19
+| mysql-brute: 
+|   Accounts: 
+|     root:root - Valid credentials
+|   Statistics: Performed 1 guesses in 1 seconds, average tps: 1.0
+|_  ERROR: The service seems to have failed or is heavily firewalled...
+| mysql-enum: 
+|   Valid usernames: 
+|     root:<empty> - Valid credentials
+|     guest:<empty> - Valid credentials
+|     netadmin:<empty> - Valid credentials
+|     user:<empty> - Valid credentials
+|     web:<empty> - Valid credentials
+|     sysadmin:<empty> - Valid credentials
+|     administrator:<empty> - Valid credentials
+|     webadmin:<empty> - Valid credentials
+|     admin:<empty> - Valid credentials
+|     test:<empty> - Valid credentials
+|_  Statistics: Performed 10 guesses in 1 seconds, average tps: 10.0
+| mysql-databases: 
+|   cmsms_db
+|   information_schema
+|   mysql
+|   performance_schema
+|_  sys
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov  4 12:03:21 2023 -- 1 IP address (1 host up) scanned in 0.94 seconds

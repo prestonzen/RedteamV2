@@ -1,0 +1,1 @@
+# Nmap 7.93 scan initiated Sun Jun  4 07:52:26 2023 as: nmap -vv --reason -Pn -T4 -sV -sC --version-all -A --osscan-guess -oN /home/kali/OSCP/Potato/results/192.168.236.101/scans/_quick_tcp_nmap.txt -oX /home/kali/OSCP/Potato/results/192.168.236.101/scans/xml/_quick_tcp_nmap.xml 192.168.236.101

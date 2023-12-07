@@ -1,0 +1,20 @@
+# Nmap 7.93 scan initiated Sun Jun 11 21:42:40 2023 as: nmap -sV -sC -p- --open -oN FunboxEasy.scan 192.168.169.111
+Nmap scan report for 192.168.169.111
+Host is up (0.069s latency).
+Not shown: 64870 closed tcp ports (conn-refused), 663 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 b2d8516ec584051908ebc8582713132f (RSA)
+|   256 b0de9703a72ff4e2ab4a9cd9439b8a48 (ECDSA)
+|_  256 9d0f9a26384f0180a7a6809dd1d4cfec (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: Apache2 Ubuntu Default Page: It works
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+| http-robots.txt: 1 disallowed entry 
+|_gym
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jun 11 21:43:13 2023 -- 1 IP address (1 host up) scanned in 32.99 seconds

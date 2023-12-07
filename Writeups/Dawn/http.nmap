@@ -1,0 +1,15 @@
+# Nmap 7.93 scan initiated Sun Nov 12 22:05:22 2023 as: nmap -sV --script=http-title,http-enum,http-favicon,http-methods,http-passwd,http-robots.txt,http-sql-injection -p 80 -T5 -oN http.nmap 192.168.184.11
+Nmap scan report for 192.168.184.11
+Host is up (0.054s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.38 ((Debian))
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Site doesn't have a title (text/html).
+| http-methods: 
+|_  Supported Methods: OPTIONS HEAD GET POST
+| http-enum: 
+|_  /logs/: Logs
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Nov 12 22:05:35 2023 -- 1 IP address (1 host up) scanned in 12.94 seconds

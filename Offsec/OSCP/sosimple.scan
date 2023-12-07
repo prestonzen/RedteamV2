@@ -1,0 +1,18 @@
+# Nmap 7.93 scan initiated Mon Jun  5 06:41:15 2023 as: nmap -sV -sC -p- --open -oN sosimple.scan 192.168.236.78
+Nmap scan report for 192.168.236.78
+Host is up (0.071s latency).
+Not shown: 64168 closed tcp ports (conn-refused), 1365 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 5b5543efafd03d0e63207af4ac416a45 (RSA)
+|   256 53f5231be9aa8f41e218c6055007d8d4 (ECDSA)
+|_  256 55b77b7e0bf54d1bdfc35da1d768a96b (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: So Simple
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun  5 06:41:50 2023 -- 1 IP address (1 host up) scanned in 34.39 seconds

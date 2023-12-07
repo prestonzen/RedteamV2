@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "0b70e717f6a954e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3c9396eeb764b2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df608e1664561726",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3dcf2d1775f3f1bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e63bdda83dbb557",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "683e6cc30c2ad78c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "117aecb1c0b73cda",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae06df80642ff5c7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bf6fb6e689167396",
+    "type": "split",
+    "children": [
+      {
+        "id": "3cd55b1a8d5321a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b513f0a65e5746c0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "d887921d28514464",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f9ecfa9f0a717690",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "aad4f044af17aeef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Offsec/OSCP/PracticeTestA-Dec2-2023/OSCP Practice Test A - Dec 2 2023.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "683e6cc30c2ad78c",
+  "lastOpenFiles": [
+    "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/ms01",
+    "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/ms02/system",
+    "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/ms02/sam",
+    "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/ms02",
+    "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/system",
+    "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/sam",
+    "Tools/system",
+    "Tools/sam",
+    "Tools/chiselWin.exe",
+    "Tools/chiselLin.sh",
+    "Tools/chiselwin.exe",
+    "Offsec/OSCP/PracticeTestA-Dec2-2023/Pasted image 20231207164053.png",
+    "Offsec/OSCP/PracticeTestA-Dec2-2023/OSCP Practice Test A - Dec 2 2023.md",
+    "Writeups/Dawn/Dawn.md",
+    "Offsec/OSCP/PracticeTestA-Dec 2 2023/OSCP Practice Test A - Dec 2 2023.md",
+    "Kaizen Pentesting Framework.md",
+    "Writeups/ClamAV/ClamAV.md",
+    "Writeups/FunboxEasyEnum/FunBoxEasyEnum - Nov 13 2023.md",
+    "Offsec/OSCP/PracticeTestA-Dec2-2023/Linux-Crystal/README.md",
+    "Offsec/OSCP/PracticeTestA-Dec2-2023/Pasted image 20231202041331.png",
+    "Writeups/FunboxEasyEnum/Pasted image 20231113005008.png",
+    "Writeups/FunboxEasyEnum/FunboxEasyEnum.md",
+    "Offsec/OSCP/OSCP Test Nov 6th 2023.md",
+    "Writeups/FunboxEasyEnum/Pasted image 20231113005435.png",
+    "Writeups/FunboxEasyEnum/Pasted image 20231113003143.png",
+    "Writeups/pyLoader/pyLoader.md",
+    "Writeups/Dawn/Pasted image 20231112233508.png",
+    "Writeups/Dawn/Pasted image 20231112233333.png",
+    "Writeups/ICMP/Offsec - ICMP - Nov 4th 2023.md",
+    "Writeups/Dawn/Pasted image 20231112230710.png",
+    "Writeups/Dawn/Pasted image 20231112230456.png",
+    "Writeups/Dawn/Pasted image 20231112223906.png",
+    "pyLoader/pyLoader.md",
+    "Offsec/OSWP/OWSP Test Notes.md",
+    "Writeups/Codo/Offsec - Codo - Oct 31st 2023.md",
+    "Writeups/Sunset Noontide/Offsec - SUNSET NOONTIDE - Feb 29th 2023.md",
+    "Writeups/#Incomplete/TryHackMe - Breaching AD - Oct 29th 2023 INCOMPLETE.md",
+    "Writeups/#Incomplete/Offsec - Pebbles - Nov 2nd 2023 INCOMPLETE.md",
+    "Writeups/#Incomplete/Offsec - Depreciated - May 21st 2023 INCOMPLETE.md",
+    "Writeups/RootMe/TryHackMe - RootMe - Oct 30th 2023.md",
+    "Writeups/My-CMSMS/Offsec - MyCMSMS - Nov 4th 2023.md",
+    "Writeups/Blue/TryHackMe - Blue - Oct 29th 2023.md",
+    "Writeups/Slort/Offsec - Slort - Apr 22nd 2023.md",
+    "Writeups/Shakabrah/Offsec - Shakabrah - Jun 17th, 2023.md",
+    "Writeups/Moneybox/Offsec - Moneybox - Jun 12th 2023.md",
+    "Writeups/Levram/Offsec - Levram - Nov 1st 2023.md"
+  ]
+}

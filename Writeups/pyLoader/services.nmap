@@ -1,0 +1,23 @@
+# Nmap 7.93 scan initiated Fri Nov 10 01:58:20 2023 as: nmap -sC -sV -p22,9666 -v -T5 -oN services.nmap 192.168.181.26
+Nmap scan report for 192.168.181.26
+Host is up (0.056s latency).
+
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 b9bc8f013f855df95cd9fbb615a01e74 (ECDSA)
+|_  256 53d97f3d228afd5798fe6b1a4cac7967 (ED25519)
+9666/tcp open  http    CherryPy wsgiserver
+| http-robots.txt: 1 disallowed entry 
+|_/
+| http-methods: 
+|_  Supported Methods: GET OPTIONS HEAD
+| http-title: Login - pyLoad 
+|_Requested resource was /login?next=http://192.168.181.26:9666/
+|_http-server-header: Cheroot/8.6.0
+|_http-favicon: Unknown favicon MD5: 71AAC1BA3CF57C009DA1994F94A2CC89
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Nov 10 01:58:56 2023 -- 1 IP address (1 host up) scanned in 36.06 seconds

@@ -1,0 +1,9 @@
+# Nmap 7.94 scan initiated Mon Nov  6 21:19:30 2023 as: nmap -Pn -p139 --script=smb-vuln-ms17-010,smb-enum-shares,smb-enum-users,smb-enum-domains,smb-brute --open -v -oN smb139Scripts.nmap 192.168.128.111
+Nmap scan report for 192.168.128.111
+Host is up (0.13s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Nov  6 21:19:50 2023 -- 1 IP address (1 host up) scanned in 20.24 seconds

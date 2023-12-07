@@ -1,0 +1,9 @@
+# Nmap 7.94 scan initiated Tue Oct 31 05:53:33 2023 as: nmap --top-ports 4000 -T5 -oN openPorts.txt 192.168.186.23
+Nmap scan report for 192.168.186.23
+Host is up (0.065s latency).
+Not shown: 3998 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+# Nmap done at Tue Oct 31 05:53:57 2023 -- 1 IP address (1 host up) scanned in 24.39 seconds

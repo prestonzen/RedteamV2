@@ -1,0 +1,48 @@
+# Nmap 7.93 scan initiated Sun Nov 12 21:35:37 2023 as: nmap -sC -sV -p80,139,445,3306 -v -T5 -oN services.nmap 192.168.184.11
+Nmap scan report for 192.168.184.11
+Host is up (0.049s latency).
+
+PORT     STATE SERVICE     VERSION
+80/tcp   open  http        Apache httpd 2.4.38 ((Debian))
+|_http-title: Site doesn't have a title (text/html).
+| http-methods: 
+|_  Supported Methods: OPTIONS HEAD GET POST
+|_http-server-header: Apache/2.4.38 (Debian)
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 4.9.5-Debian (workgroup: WORKGROUP)
+3306/tcp open  mysql       MySQL 5.5.5-10.3.15-MariaDB-1
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.5-10.3.15-MariaDB-1
+|   Thread ID: 16
+|   Capabilities flags: 63486
+|   Some Capabilities: SupportsCompression, Support41Auth, SupportsTransactions, Speaks41ProtocolOld, LongColumnFlag, IgnoreSigpipes, DontAllowDatabaseTableColumn, Speaks41ProtocolNew, InteractiveClient, IgnoreSpaceBeforeParenthesis, ConnectWithDatabase, ODBCClient, SupportsLoadDataLocal, FoundRows, SupportsMultipleResults, SupportsMultipleStatments, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: 'dGr*w=ht14Nm[_J6mEO
+|_  Auth Plugin Name: mysql_native_password
+Service Info: Host: DAWN
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.9.5-Debian)
+|   Computer name: dawn
+|   NetBIOS computer name: DAWN\x00
+|   Domain name: dawn
+|   FQDN: dawn.dawn
+|_  System time: 2023-11-12T21:35:52-05:00
+| smb2-time: 
+|   date: 2023-11-13T02:35:52
+|_  start_date: N/A
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled but not required
+|_clock-skew: mean: 1h40m03s, deviation: 2h53m12s, median: 3s
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Nov 12 21:36:20 2023 -- 1 IP address (1 host up) scanned in 43.16 seconds
