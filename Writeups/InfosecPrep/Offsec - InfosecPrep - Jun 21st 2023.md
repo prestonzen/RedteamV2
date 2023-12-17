@@ -1,10 +1,10 @@
-#Prep
+# Prep
 
 set up nc -nlvp 4444
 
   
 
-#Enumeration
+# Enumeration
 
 Assume netdiscover + subnet ping scan
 

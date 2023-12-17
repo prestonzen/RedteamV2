@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c3c9396eeb764b2c",
+        "id": "6e461de54d5aa5d2",
         "type": "tabs",
         "children": [
           {
-            "id": "df608e1664561726",
+            "id": "801a39390021c730",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -118,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Offsec/OSCP/PracticeTestA-Dec2-2023/OSCP Practice Test A - Dec 2 2023.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -141,8 +139,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "683e6cc30c2ad78c",
+  "active": "801a39390021c730",
   "lastOpenFiles": [
+    "Writeups/Sunset Noontide/Offsec - SUNSET NOONTIDE - Feb 29th 2023.md",
+    "Writeups/Sumo/Offsec - Sumo - Jun 15th 2023.md",
+    "Writeups/SoSimple/Offsec - SoSimple - Jun 4th 2023.md",
+    "Writeups/Solstice/Offsec - Solstice - Jun 26th 2023.md",
+    "Writeups/Slort/Offsec - Slort - Apr 22nd 2023.md",
+    "Writeups/Shakabrah/Offsec - Shakabrah - Jun 17th, 2023.md",
+    "Writeups/Sar/Offsec - Sar - Nov 4th 2023.md",
+    "Writeups/RootMe/TryHackMe - RootMe - Oct 30th 2023.md",
+    "Writeups/My-CMSMS/Offsec - MyCMSMS - Nov 4th 2023.md",
+    "Writeups/Moneybox/trytofind.jpg",
+    "Writeups/Moneybox/Moneybox.md",
+    "Writeups/Levram/Offsec - Levram - Nov 1st 2023.md",
+    "Writeups/Kenobi/TryHackMe - Kenobi - Oct 29th 2023.md",
+    "Writeups/InfosecPrep/Offsec - InfosecPrep - Jun 21st 2023.md",
+    "Writeups/ICMP/Offsec - ICMP - Nov 4th 2023.md",
+    "Writeups/FunboxEasy/Offsec - Funbox Easy - Jun 11th 2023.md",
+    "Writeups/FunboxEasyEnum/FunBoxEasyEnum - Nov 13 2023.md",
+    "Writeups/Gaara/Offsec - Gaara - Jun 3rd 2023.md",
+    "Writeups/Potato/Offsec - Potato - June 4th 2023.md",
+    "Writeups/Funbox_Rookie_Linux/Offsec - FunboxRookie - May 13th 2023.md",
+    "Writeups/Dawn/Dawn.md",
+    "Writeups/CyberSploit/Offsec - CyberSploit1 - Apr 20th 2023.md",
+    "Writeups/codo/Offsec - Codo - Oct 31st 2023.md",
+    "Writeups/ClamAV/ClamAV.md",
+    "Writeups/BTRSys2.1/Offsec - BTRSys2.1 - Nov 4th 2023.md",
+    "Writeups/Blue/TryHackMe - Blue - Oct 29th 2023.md",
+    "Writeups/Amaterasu/Offsec - Amaterasu - Jun 27th 2023.md",
     "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/ms01",
     "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/ms02/system",
     "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/ms02/sam",
@@ -153,41 +178,14 @@
     "Tools/sam",
     "Tools/chiselWin.exe",
     "Tools/chiselLin.sh",
-    "Tools/chiselwin.exe",
     "Offsec/OSCP/PracticeTestA-Dec2-2023/Pasted image 20231207164053.png",
-    "Offsec/OSCP/PracticeTestA-Dec2-2023/OSCP Practice Test A - Dec 2 2023.md",
-    "Writeups/Dawn/Dawn.md",
-    "Offsec/OSCP/PracticeTestA-Dec 2 2023/OSCP Practice Test A - Dec 2 2023.md",
-    "Kaizen Pentesting Framework.md",
-    "Writeups/ClamAV/ClamAV.md",
-    "Writeups/FunboxEasyEnum/FunBoxEasyEnum - Nov 13 2023.md",
-    "Offsec/OSCP/PracticeTestA-Dec2-2023/Linux-Crystal/README.md",
     "Offsec/OSCP/PracticeTestA-Dec2-2023/Pasted image 20231202041331.png",
     "Writeups/FunboxEasyEnum/Pasted image 20231113005008.png",
-    "Writeups/FunboxEasyEnum/FunboxEasyEnum.md",
-    "Offsec/OSCP/OSCP Test Nov 6th 2023.md",
     "Writeups/FunboxEasyEnum/Pasted image 20231113005435.png",
     "Writeups/FunboxEasyEnum/Pasted image 20231113003143.png",
-    "Writeups/pyLoader/pyLoader.md",
     "Writeups/Dawn/Pasted image 20231112233508.png",
     "Writeups/Dawn/Pasted image 20231112233333.png",
-    "Writeups/ICMP/Offsec - ICMP - Nov 4th 2023.md",
     "Writeups/Dawn/Pasted image 20231112230710.png",
-    "Writeups/Dawn/Pasted image 20231112230456.png",
-    "Writeups/Dawn/Pasted image 20231112223906.png",
-    "pyLoader/pyLoader.md",
-    "Offsec/OSWP/OWSP Test Notes.md",
-    "Writeups/Codo/Offsec - Codo - Oct 31st 2023.md",
-    "Writeups/Sunset Noontide/Offsec - SUNSET NOONTIDE - Feb 29th 2023.md",
-    "Writeups/#Incomplete/TryHackMe - Breaching AD - Oct 29th 2023 INCOMPLETE.md",
-    "Writeups/#Incomplete/Offsec - Pebbles - Nov 2nd 2023 INCOMPLETE.md",
-    "Writeups/#Incomplete/Offsec - Depreciated - May 21st 2023 INCOMPLETE.md",
-    "Writeups/RootMe/TryHackMe - RootMe - Oct 30th 2023.md",
-    "Writeups/My-CMSMS/Offsec - MyCMSMS - Nov 4th 2023.md",
-    "Writeups/Blue/TryHackMe - Blue - Oct 29th 2023.md",
-    "Writeups/Slort/Offsec - Slort - Apr 22nd 2023.md",
-    "Writeups/Shakabrah/Offsec - Shakabrah - Jun 17th, 2023.md",
-    "Writeups/Moneybox/Offsec - Moneybox - Jun 12th 2023.md",
-    "Writeups/Levram/Offsec - Levram - Nov 1st 2023.md"
+    "Writeups/Dawn/Pasted image 20231112230456.png"
   ]
 }
