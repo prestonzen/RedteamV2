@@ -1390,7 +1390,7 @@ sudo mount -t cifs -o rw,noexec //192.168.128.111/AnneAuto /tmp/anne
 ```
 
 ```sh
-sudp cp rev.sh anne/
+sudo cp rev.sh anne/
 ```
 	cp: cannot create regular file 'anne/rev.sh': Permission denied
 

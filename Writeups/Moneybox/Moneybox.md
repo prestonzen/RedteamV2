@@ -249,8 +249,9 @@ Apache HTTP Server 2.4.50 Path Traversal a | docs/english/50552-apache-http-s
 
 ###Directories
 
+```
 gobuster dir -u http://192.168.169.230:80 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
-
+```
 Output
 
 ===============================================================
@@ -755,8 +756,9 @@ Skip the rest and now I bruteforce ssh with user renu
 ##SSH 
 
 ###Bruteforce
-
+```
 hydra -l renu -P /usr/share/wordlists/rockyou.txt ssh://192.168.169.230
+```
 
   
 
