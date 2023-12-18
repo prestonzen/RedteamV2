@@ -1,0 +1,13 @@
+/images/
+/
+/icons/
+/applications/
+/applications/uploads/
+/applications/css/
+/Home.html
+/About.html
+/Contact.html
+/jquery.js
+/nicepage.js
+/applications/index.php
+/applications/css/1.css
