@@ -8,14 +8,43 @@
         "type": "tabs",
         "children": [
           {
+            "id": "80deecea2bce8a1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writeups/codo/Offsec - Codo - Oct 31st 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "801a39390021c730",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Offsec/OSCP/Exam-Nov6th-2023/OSCP Test Nov 6th 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0135d50f125d1791",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Offsec/OSCP/Exam2-Dec_18_2023/Exam2-Dec_18_2023.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bf6fb6e689167396",
@@ -81,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Offsec/OSCP/Exam2-Dec_18_2023/Exam2-Dec_18_2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Offsec/OSCP/Exam2-Dec_18_2023/Exam2-Dec_18_2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Offsec/OSCP/Exam2-Dec_18_2023/Exam2-Dec_18_2023.md"
+              }
             }
           }
         ],
@@ -139,8 +173,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "801a39390021c730",
+  "active": "0135d50f125d1791",
   "lastOpenFiles": [
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231218115218.png",
+    "Offsec/OSCP/Exam-Nov6th-2023/OSCP Test Nov 6th 2023.md",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Exam2-Dec_18_2023.md",
+    "Offsec/OSCP/Exam2-Dec_18_2023/WindowsChain/Foothold-192.168.140.100/services.nmap",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231218114748.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231218114309.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux3-192.168.140.112/services.nmap",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231218114044.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231218113933.png",
+    "Writeups/codo/Offsec - Codo - Oct 31st 2023.md",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux2-192.168.140.111/services.nmap",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231218113512.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231218113312.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231218113252.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231218113246.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231218113109.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux1-192.168.140.110/services.nmap",
+    "Offsec/OSCP/Exam2-Dec_18_2023/WindowsChain/AD-192.168.140.102",
+    "Offsec/OSCP/Exam2-Dec_18_2023/WindowsChain/Piviot-192.168.140.101",
+    "Offsec/OSCP/Exam2-Dec_18_2023/WindowsChain/Foothold-192.168.140.100",
+    "Offsec/OSCP/Exam2-Dec_18_2023/WindowsChain/192.168.140.102",
+    "Offsec/OSCP/Exam2-Dec_18_2023/WindowsChain/192.168.140.101",
+    "Offsec/OSCP/Exam2-Dec_18_2023/WindowsChain/192.168.140.100",
+    "Offsec/OSCP/Exam2-Dec_18_2023.md",
     "Writeups/Sunset Noontide/Offsec - SUNSET NOONTIDE - Feb 29th 2023.md",
     "Writeups/Sumo/Offsec - Sumo - Jun 15th 2023.md",
     "Writeups/SoSimple/Offsec - SoSimple - Jun 4th 2023.md",
@@ -162,30 +220,6 @@
     "Writeups/Potato/Offsec - Potato - June 4th 2023.md",
     "Writeups/Funbox_Rookie_Linux/Offsec - FunboxRookie - May 13th 2023.md",
     "Writeups/Dawn/Dawn.md",
-    "Writeups/CyberSploit/Offsec - CyberSploit1 - Apr 20th 2023.md",
-    "Writeups/codo/Offsec - Codo - Oct 31st 2023.md",
-    "Writeups/ClamAV/ClamAV.md",
-    "Writeups/BTRSys2.1/Offsec - BTRSys2.1 - Nov 4th 2023.md",
-    "Writeups/Blue/TryHackMe - Blue - Oct 29th 2023.md",
-    "Writeups/Amaterasu/Offsec - Amaterasu - Jun 27th 2023.md",
-    "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/ms01",
-    "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/ms02/system",
-    "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/ms02/sam",
-    "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/ms02",
-    "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/system",
-    "Offsec/OSCP/PracticeTestA-Dec2-2023/WindowsChain/sam",
-    "Tools/system",
-    "Tools/sam",
-    "Tools/chiselWin.exe",
-    "Tools/chiselLin.sh",
-    "Offsec/OSCP/PracticeTestA-Dec2-2023/Pasted image 20231207164053.png",
-    "Offsec/OSCP/PracticeTestA-Dec2-2023/Pasted image 20231202041331.png",
-    "Writeups/FunboxEasyEnum/Pasted image 20231113005008.png",
-    "Writeups/FunboxEasyEnum/Pasted image 20231113005435.png",
-    "Writeups/FunboxEasyEnum/Pasted image 20231113003143.png",
-    "Writeups/Dawn/Pasted image 20231112233508.png",
-    "Writeups/Dawn/Pasted image 20231112233333.png",
-    "Writeups/Dawn/Pasted image 20231112230710.png",
-    "Writeups/Dawn/Pasted image 20231112230456.png"
+    "Writeups/CyberSploit/Offsec - CyberSploit1 - Apr 20th 2023.md"
   ]
 }

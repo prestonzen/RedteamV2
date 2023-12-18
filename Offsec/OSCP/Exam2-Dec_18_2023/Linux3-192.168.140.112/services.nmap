@@ -1,0 +1,39 @@
+# Nmap 7.94SVN scan initiated Mon Dec 18 11:41:39 2023 as: nmap -sC -sV -p21,22,80 -v -T4 -oN services.nmap 192.168.140.112
+Nmap scan report for 192.168.140.112
+Host is up (0.17s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.5
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| -rw-r--r--    1 114      120         55699 Jan 03  2023 applications-dec22.zip
+| -rw-r--r--    1 114      120         72600 Mar 04  2023 applications-feb23.zip
+| -rw-r--r--    1 114      120         65042 Feb 02  2023 applications-jan23.zip
+|_-rw-r--r--    1 114      120         49040 Dec 02  2022 applications-nov22.zip
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:192.168.49.140
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 4
+|      vsFTPd 3.0.5 - secure, fast, stable
+|_End of status
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 4f:d0:47:72:6f:d1:37:bf:96:74:8a:ee:d6:ab:74:49 (ECDSA)
+|_  256 7b:f8:fe:ba:a3:cc:d9:15:0e:17:dc:d8:10:7b:29:b7 (ED25519)
+80/tcp open  http    Apache httpd 2.4.52 ((Ubuntu))
+|_http-title: Home
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.52 (Ubuntu)
+|_http-generator: Nicepage 5.4.4, nicepage.com
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Dec 18 11:41:53 2023 -- 1 IP address (1 host up) scanned in 13.59 seconds

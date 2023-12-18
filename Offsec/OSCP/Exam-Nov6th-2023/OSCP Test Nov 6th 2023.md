@@ -4,7 +4,7 @@ Optimized for speed on not stealth. This method is EXTREMELY LOUD on networks an
 
 Mind-maps
 ---
-General
+Generald
 https://xmind.app/m/QsNUEz/
 
 Active Directory

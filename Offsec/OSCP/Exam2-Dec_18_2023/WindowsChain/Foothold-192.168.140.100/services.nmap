@@ -1,0 +1,50 @@
+# Nmap 7.94SVN scan initiated Mon Dec 18 11:49:34 2023 as: nmap -sC -sV -Pn -p53,88,135,139,389,445,464,593,636,3269,3268,3389,9389 -v -T5 -oN services.nmap 192.168.140.100
+Nmap scan report for 192.168.140.100
+Host is up (0.17s latency).
+
+PORT     STATE SERVICE       VERSION
+53/tcp   open  domain        Simple DNS Plus
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2023-12-18 16:49:42Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: oscp.exam0., Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds?
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: oscp.exam0., Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| ssl-cert: Subject: commonName=dc01.oscp.exam
+| Issuer: commonName=dc01.oscp.exam
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-09-19T09:42:05
+| Not valid after:  2024-03-20T09:42:05
+| MD5:   c6da:20f4:16a3:3226:38f6:ef0f:2ec7:6d13
+|_SHA-1: 7bbc:3f91:248d:0fef:a66a:d11e:b59b:5129:fa26:58be
+|_ssl-date: 2023-12-18T16:50:37+00:00; 0s from scanner time.
+| rdp-ntlm-info: 
+|   Target_Name: oscp
+|   NetBIOS_Domain_Name: oscp
+|   NetBIOS_Computer_Name: DC01
+|   DNS_Domain_Name: oscp.exam
+|   DNS_Computer_Name: dc01.oscp.exam
+|   DNS_Tree_Name: oscp.exam
+|   Product_Version: 10.0.17763
+|_  System_Time: 2023-12-18T16:49:58+00:00
+9389/tcp open  mc-nmf        .NET Message Framing
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2023-12-18T16:49:58
+|_  start_date: N/A
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Dec 18 11:50:42 2023 -- 1 IP address (1 host up) scanned in 68.04 seconds
