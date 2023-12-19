@@ -976,7 +976,7 @@ mysql --host=192.168.x.x --port=3306 --user=USERNAME -p
 ```
 
 Or use GUI based `dbeaver
-## 192.168.128.111 - Windows
+## 192.168.128.111 - Linux?
 ### Prep
 
 Target IP given
