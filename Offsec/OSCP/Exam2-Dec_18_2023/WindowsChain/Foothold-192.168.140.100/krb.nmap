@@ -1,0 +1,12 @@
+# Nmap 7.93 scan initiated Tue Dec 19 13:11:24 2023 as: nmap -p 88 --script krb5-enum-users --script-args krb5-enum-users.realm='oscp.exam' -Pn -v -oN krb.nmap 192.168.140.100
+Nmap scan report for 192.168.140.100
+Host is up (0.18s latency).
+
+PORT   STATE SERVICE
+88/tcp open  kerberos-sec
+| krb5-enum-users: 
+| Discovered Kerberos principals
+|_    administrator@oscp.exam
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Dec 19 13:11:25 2023 -- 1 IP address (1 host up) scanned in 1.34 seconds
