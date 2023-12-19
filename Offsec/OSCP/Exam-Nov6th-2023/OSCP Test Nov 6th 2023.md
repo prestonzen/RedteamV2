@@ -1,6 +1,6 @@
 Written by Zen as a hedge against performance anxiety when you know what you need to do and just need to hash out the emotionless results and instinctively like breathing air.
 
-Optimized for speed on not stealth. This method is EXTREMELY LOUD on networks and has a near GUARANTEE to get the user IP blocked or even globally blacklisted
+Optimised for speed on not stealth. This method is EXTREMELY LOUD on networks and has a near GUARANTEE to get the user IP blocked or even globally blacklisted
 
 Mind-maps
 ---
