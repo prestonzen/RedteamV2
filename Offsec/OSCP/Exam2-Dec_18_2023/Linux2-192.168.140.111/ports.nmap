@@ -1,0 +1,23 @@
+# Nmap 7.93 scan initiated Tue Dec 19 02:01:51 2023 as: nmap --top-ports 10000 -T5 -Pn -oN ports.nmap 192.168.140.100
+Nmap scan report for 192.168.140.100
+Host is up (0.18s latency).
+Not shown: 8350 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+3389/tcp  open  ms-wbt-server
+5985/tcp  open  wsman
+9389/tcp  open  adws
+49678/tcp open  unknown
+57681/tcp open  unknown
+
+# Nmap done at Tue Dec 19 02:02:52 2023 -- 1 IP address (1 host up) scanned in 61.29 seconds
