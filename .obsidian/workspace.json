@@ -68,12 +68,12 @@
             }
           },
           {
-            "id": "3b2e29938df6e206",
+            "id": "b58a8db97ff0b384",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offsec/OSWP/OWSP Exam Sept 9th 2023.md",
+                "file": "Writeups/Dawn/Dawn.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "oswp",
+                "query": "proof",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,12 +126,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bf6fb6e689167396",
@@ -211,33 +211,36 @@
   },
   "active": "0135d50f125d1791",
   "lastOpenFiles": [
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219105908.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219105618.png",
+    "Offsec/OSCP/Exam-Nov6th-2023/OSCP Test Nov 6th 2023.md",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Exam2-Dec_18_2023.md",
+    "Writeups/Dawn/Dawn.md",
+    "Writeups/ClamAV/ClamAV.md",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219104821.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219104317.png",
+    "Writeups/Blue/TryHackMe - Blue - Oct 29th 2023.md",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux3-192.168.140.112/users",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux3-192.168.140.112/users2",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux3-192.168.140.112/passwords",
+    "Writeups/FunboxEasyEnum/FunBoxEasyEnum - Nov 13 2023.md",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux3-192.168.140.112/Chankro/test.pdf.php",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux3-192.168.140.112/Chankro/revshell.sh",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux3-192.168.140.112/Chankro/hook64.so",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux3-192.168.140.112/Chankro/hook32.so",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux3-192.168.140.112/Chankro/hook.c",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux3-192.168.140.112/Chankro/chankro.py",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux3-192.168.140.112/Chankro/README.md",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Linux3-192.168.140.112/Chankro/LICENSE",
+    "Offsec/OSWP/OWSP Exam Sept 9th 2023.md",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219090923.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219085140.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219084546.png",
+    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219084258.png",
     "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219020108.png",
     "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219020106.png",
     "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219020105.png",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Linux2-192.168.140.111/ports.nmap",
-    "Writeups/ClamAV/ClamAV.md",
     "Writeups/Moneybox/Moneybox.md",
-    "Offsec/OSCP/Exam-Nov6th-2023/OSCP Test Nov 6th 2023.md",
-    "Writeups/Blue/TryHackMe - Blue - Oct 29th 2023.md",
-    "Offsec/OSWP/OWSP Exam Sept 9th 2023.md",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Exam2-Dec_18_2023.md",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219003524.png",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219003444.png",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219003359.png",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219003355.png",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219002703.png",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231219002455.png",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Linux2-192.168.140.111/passwords",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Linux2-192.168.140.111/users",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231218232001.png",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Linux2-192.168.140.111/emails/2023_Week40/20231006110833_1.msg",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Linux2-192.168.140.111/emails/2023_Week40/20231006105148_1.msg",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Linux2-192.168.140.111/emails/2023_Week40/20231006105123_1.msg",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Linux2-192.168.140.111/emails/2023_Week40/20231005165504_1.msg",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Linux2-192.168.140.111/emails/2023_Week40/20231005142354_1.msg",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Linux2-192.168.140.111/emails/2023_Week40/20231005120237_1.msg",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Linux2-192.168.140.111/emails/2023_Week40/20231005113745_1.msg",
-    "Offsec/OSCP/Exam2-Dec_18_2023/Pasted image 20231218170638.png",
     "Writeups/pyLoader/pyLoader.md",
     "Writeups/OnSystemShellDredd/Offsec - OnSystemShellDredd - Feb 27th 2023.md",
     "Writeups/BTRSys2.1/Offsec - BTRSys2.1 - Nov 4th 2023.md",
@@ -253,9 +256,6 @@
     "Writeups/RootMe/TryHackMe - RootMe - Oct 30th 2023.md",
     "Writeups/My-CMSMS/Offsec - MyCMSMS - Nov 4th 2023.md",
     "Writeups/Levram/Offsec - Levram - Nov 1st 2023.md",
-    "Writeups/Kenobi/TryHackMe - Kenobi - Oct 29th 2023.md",
-    "Writeups/InfosecPrep/Offsec - InfosecPrep - Jun 21st 2023.md",
-    "Writeups/ICMP/Offsec - ICMP - Nov 4th 2023.md",
-    "Writeups/FunboxEasy/Offsec - Funbox Easy - Jun 11th 2023.md"
+    "Writeups/Kenobi/TryHackMe - Kenobi - Oct 29th 2023.md"
   ]
 }
